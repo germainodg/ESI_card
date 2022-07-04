@@ -1,0 +1,14 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class Acceuilcontroller extends Controller
+{
+    public function directeur(){
+
+        return view('acceuil');
+    }
+  
+}
